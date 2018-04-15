@@ -17,8 +17,25 @@
     <!-- Core Stylesheet -->
     <link href="style.css" rel="stylesheet">
 
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
     <!-- Responsive CSS -->
     <link href="css/responsive.css" rel="stylesheet" />
+
+    <script>
+    $(function(){
+      $("#nav-header").load("nav-header.html");
+    });
+    </script>
+    <script>
+    $(function(){
+      $("#cont-foot").load("cont-foot.html");
+    });
+    </script>
+
 </head>
 
 <body>
@@ -27,78 +44,9 @@
         <div class="colorlib-load"></div>
     </div>
 
-    <!-- ***** Header Area Start ***** -->
-    <header class="header_area animated">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <!-- Menu Area Start -->
-                <div class="col-12 col-lg-10">
-                    <div class="menu_area">
-                        <nav class="navbar navbar-expand-lg navbar-light">
-                            <!-- Logo -->
-                            <a class="navbar-brand" href="#">CypherOps</a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                            <!-- Menu Area -->
-                            <div class="collapse navbar-collapse" id="ca-navbar">
-                                <ul class="navbar-nav ml-auto" id="nav">
-                                    <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#features">Services</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#screenshot">Portfolio</a></li>
-                                    <!-- <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li> -->
-                                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
-                                    <!-- <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> -->
-                                </ul>
-                                <div class="sing-up-button d-lg-none">
-                                    <a href="#contact">Contact</a>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-                <!-- Signup btn -->
-                <div class="col-12 col-lg-2">
-                    <div class="sing-up-button d-none d-lg-block">
-                      <a href="#contact">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
-
-    <!-- ***** Wellcome Area Start ***** -->
-    <section class="wellcome_area clearfix" id="home">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12 col-md">
-                    <div class="wellcome-heading">
-                        <h2>CypherOps</h2>
-                        <h3>C</h3>
-                        <p>Everything You Need. Cause we stand for code.</p>
-                    </div>
-                    <!-- <div class="get-start-area"> -->
-                        <!-- Form Start -->
-                        <!-- <form action="#" method="post" class="form-inline">
-                            <input type="email" class="form-control email" placeholder="name@company.com">
-                            <input type="submit" class="submit" value="Get Started">
-                        </form> -->
-                        <!-- Form End -->
-                    <!-- </div> -->
-                </div>
-            </div>
-        </div>
+<div id="nav-header"></div>
         <!-- Welcome thumb -->
-        <div class="animate-in"  id="home-slider">
-          <img src="img/home/slider/hill.png" class="slider-hill" alt="slider image">
-<img src="img/home/slider/house.png" class="slider-house" alt="slider image">
-<img src="img/home/slider/sun.png" class="slider-sun" alt="slider image">
-<img src="img/home/slider/birds1.png" class="slider-birds1" alt="slider image">
-<img src="img/home/slider/birds2.png" class="slider-birds2" alt="slider image">
-<img src="img/home/slider-bg.png" class="wheel" alt="slider image">
-        </div>
-    </section>
+
     <!-- ***** Wellcome Area End ***** -->
 
     <!-- ***** Special Area Start ***** -->
@@ -593,99 +541,14 @@
     </section> -->
     <!-- ***** Our Team Area End ***** -->
 
-    <!-- ***** Contact Us Area Start ***** -->
-    <section class="footer-contact-area section_padding_100 clearfix" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <!-- Heading Text  -->
-                    <div class="section-heading">
-                        <h2>Get in touch with us!</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                    <div class="footer-text">
-                        <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
-                    </div>
-                    <div class="address-text">
-                        <p><span>Address:</span> To be updated</p>
-                    </div>
-                    <div class="phone-text">
-                        <p><span>Phone:</span> 8383xxxxx</p>
-                    </div>
-                    <div class="email-text">
-                        <p><span>Email:</span> cypherops@gmail.com</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <!-- Form Start-->
-                    <div class="contact_from">
-                        <form action="#" method="post">
-                            <!-- Message Input Area Start -->
-                            <div class="contact_input_area">
-                                <div class="row">
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Your Message *" required></textarea>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <button type="submit" class="btn submit-btn">Send Now</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Message Input Area End -->
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Contact Us Area End ***** -->
+
+    <div id="cont-foot"></div>
 
     <!-- ***** Footer Area Start ***** -->
     <footer class="footer-social-icon text-center section_padding_70 clearfix">
-        <!-- footer logo -->
-        <div class="footer-text">
-            <h2>Ca.</h2>
-        </div>
-        <!-- social icon-->
-        <div class="footer-social-icon">
-            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-        </div>
-        <div class="footer-menu">
-            <nav>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- Foooter Text-->
-        <div class="copyright-text">
-            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
-            <p>Copyright ©2017 CypherOps. Designed with love by <a href="https://cypherops.github.io/Portfolio/" target="_blank">Cyphers</a></p>
-        </div>
+        
     </footer>
-    <!-- ***** Footer Area Start ***** -->
+            <!-- Welcome thumb -->
 
     <!-- Jquery-2.2.4 JS -->
     <script src="js/jquery-2.2.4.min.js"></script>
