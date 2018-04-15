@@ -1,3 +1,65 @@
+#home-slider .slider-hill {
+position: absolute;
+right: 0;
+bottom: 150px;
+}
+
+#home-slider .wheel {
+position: absolute;
+left: 0;
+bottom: 150px;
+height:400px;
+}
+.animate-in .slider-hill {
+-webkit-animation: bounceInDown 1000ms ease-in-out 200ms both;
+animation: bounceInDown 1000ms ease-in-out 200ms both;
+}
+
+#home-slider .slider-house {
+position: absolute;
+right: 110px;
+bottom: 120px;
+}
+
+.animate-in .slider-house {
+-webkit-animation: bounceInDown 500ms ease-in-out 800ms both;
+animation: bounceInDown 500ms ease-in-out 800ms both;
+}
+
+#home-slider .slider-sun {
+position: absolute;
+right: 365px;
+bottom: 250px;
+}
+
+.animate-in .slider-sun {
+-webkit-animation: scaleIn 500ms ease-in-out 1200ms both;
+animation: scaleIn 500ms ease-in-out 1200ms both;
+}
+
+#home-slider .slider-birds1 {
+position: absolute;
+right: 470px;
+bottom: 225px;
+}
+
+.animate-in .slider-birds1 {
+-webkit-animation: fadeInLeft 500ms ease-in-out 1200ms both;
+animation: fadeInLeft 500ms ease-in-out 1200ms both;
+}
+
+#home-slider .slider-birds2 {
+position: absolute;
+right: 40px;
+bottom: 300px;
+}
+
+.animate-in .slider-birds2 {
+-webkit-animation: fadeInRight 500ms ease-in-out 1200ms both;
+animation: fadeInRight 500ms ease-in-out 1200ms both;
+}
+
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .menu_area .navbar-brand {
         font-size: 42px;
@@ -224,6 +286,34 @@
     .cool_facts_area .col-12:last-of-type .single-cool-fact {
         margin-bottom: 0;
     }
+    #home-slider .slider-hill {
+    position: absolute;
+    right: 0;
+    bottom: 150px;
+    width:310px;
+    }
+    #home-slider .slider-house {
+    position: absolute;
+    right: 110px;
+    bottom: 120px;
+    width:260px;
+    }
+    #home-slider .slider-sun {
+    position: absolute;
+    right: 165px;
+    bottom: 270px;
+    }
+    #home-slider .slider-birds1 {
+    position: absolute;
+    right: 200px;
+    bottom: 225px;
+    }
+    #home-slider .slider-birds2 {
+    position: absolute;
+    right: 40px;
+    bottom: 300px;
+    }
+
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
