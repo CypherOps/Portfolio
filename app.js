@@ -6,8 +6,9 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 var app = express();
 
 //include routes files
-var indexroutes = require('./routes/index');
+var homeroutes = require('./routes/home');
 var contactroutes = require('./routes/contact');
+var portroutes = require('./routes/portfolio');
 
 //set up emplate engine
 app.set('view engine','ejs');
@@ -19,9 +20,9 @@ app.use(express.static('./public'));
 
 
 //use routes
-app.use(indexroutes);
+app.use(homeroutes);
 app.use(contactroutes);
-
+app.use(portroutes);
 
 
 //listen to port

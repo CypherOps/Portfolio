@@ -17,23 +17,11 @@
 	crossorigin="anonymous"></script>
 
 
-		<script>
-		$(function(){
-			$("#includedContent").load("nav-header.html");
-		});
-		</script>
-
-		<script>
-    $(function(){
-      $("#cont-foot").load("cont-foot.html");
-    });
-    </script>
-
 	</head>
 	<body>
 
 		<div class="page-wrap">
-
+<%- include partials/nav.ejs %>
 			<!-- Main -->
 				<section id="main">
 
@@ -100,13 +88,8 @@
 
 <div id="cont-foot"></div>
 
-		<!-- Scripts -->
-			<script src="../assets/js/jquery.min.js"></script>
-			<script src="../assets/js/jquery.poptrox.min.js"></script>
-			<script src="../assets/js/jquery.scrolly.min.js"></script>
-			<script src="../assets/js/skel.min.js"></script>
-			<script src="../assets/js/util.js"></script>
-			<script src="../assets/js/main.js"></script>
+
+<%- include partials/script.ejs %>
 
 	</body>
 </html>
