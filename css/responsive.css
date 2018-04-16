@@ -15,6 +15,7 @@ height:400px;
 position: absolute;
 left: 45%;
 bottom: 150px;
+top:25%;
 width:170px;
 }
 .animate-in .slider-hill {
@@ -321,9 +322,22 @@ animation: fadeInRight 500ms ease-in-out 1200ms both;
     bottom: 300px;
     }
 
+    #home-slider .hills {
+    position: absolute;
+    left: 25%;
+    bottom: 150px;
+    top:25%;
+    width:170px;
+    }
+    .wellcome_area {
+        height: 720px;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
+  .wellcome_area {
+      height: 720px;
+  }
     .wellcome-heading > h3 {
         font-size: 284px;
     }
