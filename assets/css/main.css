@@ -1,14 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600");
 
-/*
-	Snapshot by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-/* Reset */
-
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu,
  output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -1517,7 +1509,7 @@
 /* Main */
 
 	#main {
-		background: #f1f1f1;
+		background: #fff;
 		width: 100%;
 	}
 
@@ -1547,26 +1539,3 @@
 				}
 
 			}
-
-/* Footer */
-
-	#footer {
-		padding: 4em 0 2em 0;
-		background: #f2f2f2;
-	}
-
-		#footer .copyright {
-			color: #bfbfbf;
-			font-size: 0.9em;
-			margin: 0 0 2em 0;
-			padding: 0 1em;
-			text-align: center;
-		}
-
-		@media screen and (max-width: 736px) {
-
-			#footer {
-				padding: 3em 0 1em 0;
-			}
-
-		}

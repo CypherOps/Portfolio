@@ -10,6 +10,13 @@ left: 0;
 bottom: 150px;
 height:400px;
 }
+
+#home-slider .hills {
+position: absolute;
+left: 45%;
+bottom: 150px;
+width:170px;
+}
 .animate-in .slider-hill {
 -webkit-animation: bounceInDown 1000ms ease-in-out 200ms both;
 animation: bounceInDown 1000ms ease-in-out 200ms both;

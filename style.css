@@ -1,5 +1,5 @@
 /* --------------------------
-:: Template Name: Colorlib App - App Landing Page 
+:: Template Name: Colorlib App - App Landing Page
 :: Template Author: Colorlib
 :: Template Author URI: https://colorlib.com/
 :: Description: Colorlib is a One Page based App Landing Template. It's very clean, creative & beautiful. It's super     responsive & ultra light.
@@ -432,7 +432,25 @@ p {
     background-size: cover;
 }
 
+.wellcome_area1 {
+    background-image: url(img/bg-img/welcome-bg.png);
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    background-position: bottom center;
+    background-size: cover;
+}
 .wellcome_area:after {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    background-color: #fff;
+    content: '';
+    bottom: 0;
+    z-index: 2;
+}
+.wellcome_area1:after {
     position: absolute;
     width: 100%;
     left: 0;
@@ -1235,7 +1253,6 @@ p {
     font-size: 72px;
     font-weight: 700;
 }
-
 .footer-social-icon > a > i {
     background: #9b69e4;
     font-size: 14px;
