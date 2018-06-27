@@ -744,6 +744,7 @@
 		position: relative;
 		overflow: hidden;
 		min-height: 37em;
+		background-color: #fff !important;
 	}
 
 		@media screen and (max-width: 980px) {
